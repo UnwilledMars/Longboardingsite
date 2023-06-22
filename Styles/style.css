@@ -1,3 +1,24 @@
-a {
-    padding: 15px;
+* {
+    text-align: center;
+}
+img.logo_img {
+    max-width: 80px;
+}
+header a {
+    display: flexbox;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #588182;
+    color: #A2B0A1;
+    text-decoration: none;
+    margin: 0 auto;
+    min-width: 100px;
+}
+header a:hover {
+    background-color: #A2B0A1;
+    color: #588182;
+}
+
+body {
+    background-color: #A4A29F;
 }
