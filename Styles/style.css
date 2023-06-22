@@ -1,24 +1,48 @@
+  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&family=Teko:wght@600&display=swap');
+
 * {
     text-align: center;
 }
 img.logo_img {
-    max-width: 80px;
+    max-height: 80px;
 }
-header a {
-    display: flexbox;
-    justify-content: space-evenly;
-    padding: 20px;
+nav{
+    display: flex;
+    justify-content: space-around;
     background-color: #588182;
-    color: #A2B0A1;
+ }
+ nav a {
     text-decoration: none;
-    margin: 0 auto;
-    min-width: 100px;
-}
-header a:hover {
+    color: #A2B0A1;
+ }
+header a:hover, footer a:hover{
     background-color: #A2B0A1;
     color: #588182;
 }
 
+header a, footer a{
+padding: 30px;
+background-color: #588182;
+}
+
+h2 {
+    color: #600E0E;
+    font-size: 2em;;
+}
 body {
     background-color: #A4A29F;
+}
+
+body img.board_img {
+    max-width: 200px;
+}
+
+h3{
+    font-size: 1.5em;
+    color: #600E0E;
+    font-family: 'Teko', sans-serif;
+}
+p {
+    font-family: 'Red Hat Display', sans-serif;
 }
