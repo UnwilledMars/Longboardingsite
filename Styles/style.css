@@ -48,7 +48,7 @@ h3{
 p {
     font-family: 'Red Hat Display', sans-serif;
 }
-
+/*use filter: blur(px) to blur imgs then hover and filter none to unblur*/
 
 
 div#snoho_trail img, div#if_greenbelt img{
