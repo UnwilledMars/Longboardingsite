@@ -1,24 +1,24 @@
-  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&family=Teko:wght@600&display=swap');
 
 * {
-    text-align: center;
+  text-align: center;
 }
 img.logo_img {
-    max-height: 80px;
+  max-height: 80px;
 }
 nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: #588182;
- }
- nav a {
-    text-decoration: none;
-    color: #A2B0A1;
- }
+  display: flex;
+  justify-content: space-around;
+  background-color: #588182;
+}
+nav a {
+  text-decoration: none;
+  color: #A2B0A1;
+}
 header a:hover, footer a:hover{
-    background-color: #A2B0A1;
-    color: #588182;
+  background-color: #A2B0A1;
+  color: #588182;
 }
 
 header a, footer a{
@@ -27,31 +27,112 @@ background-color: #588182;
 }
 
 h1 {
-    color: #600E0E;
-    background-color: #588182;
-    font-size: 2.5em;
-    margin: 0 auto;
+  color: #600E0E;
+  background-color: #588182;
+  font-size: 2.5em;
+  margin: 0 auto;
 }
 body {
-    background-color: #A4A29F;
+  background-color: #A4A29F;
 }
 
 body img.board_img {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 h3{
-    font-size: 1.5em;
-    color: #600E0E;
-    font-family: 'Teko', sans-serif;
+  font-size: 1.5em;
+  color: #600E0E;
+  font-family: 'Teko', sans-serif;
 }
 
 p {
-    font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
 }
 /*use filter: blur(px) to blur imgs then hover and filter none to unblur*/
 
 
 div#snoho_trail img, div#if_greenbelt img{
-    max-width: 750px;
+  max-width: 750px;
 }
+
+
+/*My Story CSS */
+div.gallery_grid {
+  display: grid;
+  grid-template-rows: repeat(6, calc(100%/6%));
+  grid-template-columns: repeat(2, 1fr);
+
+}
+div.gallery_grid h3, div.gallery_grid p {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  max-width: 35em;
+}
+/*Begin Grid Image Placemet*/
+div.gallery_grid img {
+  max-width: 35em;
+  grid-column: 1/2;
+  padding: 20px;
+  justify-self: center;
+}
+img.selfie {
+  grid-row: 1/2;
+  background-color: #600E0E;
+}
+img.street {
+  grid-row: 2/3;
+  background-color: #588182;
+}
+img.hospital_img {
+  grid-row: 3/4;
+  background-color: #600E0E;
+}
+img.after_bath {
+  grid-row: 4/5;
+  background-color: #588182;
+}
+img.foll_months {
+  grid-row: 5/6;
+  background-color: #600E0E;
+}
+img.tynee_board {
+  grid-row: 6/7;
+  background-color: #588182;
+}
+/*End Grid IMage Placement*/
+
+/*Begin Grid Text PLacement*/
+div.gallery_grid p {
+  grid-column: 2/3;
+  padding: 20px;
+}
+div.gallery_grid h3 {
+  grid-column: 2/3;
+}
+div.p1{
+  justify-self: center;
+  background-color: #588182;
+}
+div.p2{
+  justify-self: center;
+
+}
+div.p3{
+  justify-self: center;
+  background-color: #588182;
+}
+div.p4{
+  justify-self: center;
+
+}
+div.p5{
+  justify-self: center;
+  background-color: #588182;
+}
+div.p6{
+  justify-self: center;
+
+}
+/*End Grid Text Placement*/
+
