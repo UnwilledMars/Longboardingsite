@@ -1,69 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&family=Teko:wght@600&display=swap');
 
-* {
+* { /*text align center for all text*/
   text-align: center;
 }
-img.logo_img {
+img.logo_img { /*logo sizing*/
   max-height: 80px;
 }
-nav{
+nav{ /*nav display, justification and color*/
   display: flex;
   justify-content: space-around;
   background-color: #588182;
 }
-nav a {
+nav a { /*nav  link color and text dec removal*/
   text-decoration: none;
   color: #A2B0A1;
 }
-header a:hover, footer a:hover{
+header a:hover, footer a:hover{ /*header/footer hover color*/
   background-color: #A2B0A1;
   color: #588182;
 }
-
-header a, footer a{
+header a, footer a { /*header/footer padding and color*/
 padding: 30px;
 background-color: #588182;
 }
 
-h1 {
+h1 { /*h1 coloring, fontsize, margin*/
   color: #600E0E;
   background-color: #588182;
-  font-size: 2.5em;
+  font-size: 3em;
   margin: 0 auto;
 }
-body {
-  background-color: #A4A29F;
-}
-
-body img.board_img {
-  max-width: 200px;
-}
-
-h3{
-  font-size: 1.5em;
+h3 { /*h3 font, size, color*/
+  font-size: 2em;
   color: #600E0E;
   font-family: 'Teko', sans-serif;
 }
-
-p {
+p { /*p font, size*/
   font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.3em;
 }
 
+body { /*body background color*/
+  background-color: #A4A29F;
+}
 
-div#snoho_trail img, div#if_greenbelt img{
-  max-width: 750px;
+body img.board_img { /*front page skateboaord img sizing*/
+  max-width: 200px;
 }
 
 
 /*My Story CSS */
-div.gallery_grid {
+div.gallery_grid { /*grid row and column sizing*/
   display: grid;
   grid-template-rows: repeat(6, calc(100/6));
   grid-template-columns: repeat(2, 1fr);
 
 }
-div.gallery_grid h3, div.gallery_grid p {
+div.gallery_grid h3, div.gallery_grid p { /*grid text placement and sizing*/
   grid-column: 2/3;
   grid-row: 1/2;
   max-width: 35em;
@@ -87,7 +81,7 @@ img.hospital_img {
   grid-row: 3/4;
   background-color: #600E0E;
 }
-img.after_bath {  /*use filter: blur(px) to blur imgs then hover and filter none to unblur*/
+img.after_bath {
   grid-row: 4/5;
   background-color: #588182;
   filter: blur(20px);
@@ -139,21 +133,21 @@ div.p6{
 }
 /*End Grid Text Placement*/
 /*End My Story Grid CSS*/
+
 /*Gallery CSS Start*/
 img.warning {
   display: inline;
   max-width: 300px;
   margin-top: 200px;
   margin-bottom: 200px;
+  background-color: #600E0E;
+  border-radius: 2em;
 }
 div.crash_photos {
   margin-top: 100px;
 }
-div.crash_photos img {
-  max-width: 25%;
-}
-div.rsc_trail img{
-  max-width: 25%;
-}
 
+div#snoho_trail img, div#if_greenbelt img, div.tr_trail img, div.rsc_trail img, div.crash_photos img, div.crash_photos img, div.sc_busloop img{
+  max-width: 30%;
+}
 /*Gallery CSS End*/
