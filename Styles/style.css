@@ -150,6 +150,10 @@ div.crash_photos {
   margin-top: 100px;
 }
 div.crash_photos img {
-  max-width: 30%;
+  max-width: 25%;
 }
+div.rsc_trail img{
+  max-width: 25%;
+}
+
 /*Gallery CSS End*/
