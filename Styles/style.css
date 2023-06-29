@@ -146,4 +146,7 @@ img.warning {
   margin-top: 200px;
   margin-bottom: 200px;
 }
+div.crash_photos img {
+  max-width: 30%;
+}
 /*Gallery CSS End*/
