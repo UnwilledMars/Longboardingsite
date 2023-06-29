@@ -142,9 +142,12 @@ div.p6{
 /*Gallery CSS Start*/
 img.warning {
   display: inline;
-  max-width: 200px;
+  max-width: 300px;
   margin-top: 200px;
   margin-bottom: 200px;
+}
+div.crash_photos {
+  margin-top: 100px;
 }
 div.crash_photos img {
   max-width: 30%;
