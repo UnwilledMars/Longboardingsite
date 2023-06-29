@@ -138,5 +138,12 @@ div.p6{
 
 }
 /*End Grid Text Placement*/
-
 /*End My Story Grid CSS*/
+/*Gallery CSS Start*/
+img.warning {
+  display: inline;
+  max-width: 200px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+/*Gallery CSS End*/
