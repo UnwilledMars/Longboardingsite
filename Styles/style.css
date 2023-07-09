@@ -158,7 +158,7 @@ div#snoho_trail img, div#if_greenbelt img, div.tr_trail img, div.rsc_trail img, 
 
 
 /*Smaller Screen Css*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
  
 
 div#snoho_trail img, div#if_greenbelt img, div.tr_trail img, div.rsc_trail img, div.crash_photos img, div.crash_photos img, div.sc_busloop img{
