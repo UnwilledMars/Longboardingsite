@@ -175,3 +175,15 @@ div.gallery_grid p {
   padding: 20px;
 }
 }
+
+@media screen and (max-width: 600px) {
+
+  img.logo_img { /*logo sizing*/
+    max-height: 20px;
+  }
+
+  header a, footer a { /*header/footer padding and color*/
+    padding: 0px;
+    background-color: #588182;
+    }
+  }
