@@ -165,7 +165,12 @@ div#snoho_trail img, div#if_greenbelt img, div.tr_trail img, div.rsc_trail img, 
   max-width: 100%;
   border-radius: 40px;
 }
-
+ h1 {
+  font-size: 2em; 
+ }
+ p {
+  font-size: 1em;
+ }
   div.gallery_grid img {
   max-width: 100%;
   padding: 10px;
